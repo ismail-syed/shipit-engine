@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'sqlite3'
+gem 'danger'
 
 group :ci do
   gem 'mysql2'

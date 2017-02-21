@@ -26,3 +26,5 @@ notifications:
 services:
   - redis
 bundler_args: --without deploy production debug --jobs 3 --retry 3
+before_script:
+     - bundle exec danger
